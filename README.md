@@ -1,38 +1,44 @@
-# Hotel Management System (HMS)
-This project was developed as part of the DEPI Graduation Project. 
-It is a web-based Hotel Management System designed to handle reservations, check-in, check-out, room management, billing, and reporting.
-Built with .NET Core 9, SQL Server, HTML, CSS, and JavaScript.
+# Hotel Management System – Database
 
-## Features
-- Room management (add, update, delete, room status)
-- Reservation management
-- Billing and payments
-- Guest management
+This repository contains the **SQL Server database script** for the **Hotel Management System (HMS)**, developed as part of the **DEPI Graduation Project**.
 
-## Tech Stack
-- Backend: .NET Core 9 Web API
-- Frontend: HTML, CSS, JavaScript
-- Database: SQL Server
+The database supports core hotel operations such as guest management, room tracking, reservations, and payments.
 
-## Installation
-1. Clone the repository.
-2. Open the solution in Visual Studio.
-3. Update the SQL connection string in appsettings.json.
-4. Run the database script (database.sql).
-5. Run the API.
-6. Open the frontend and run the website.
+---
 
-## Database Structure
-Main tables:
-- Guests
-- Rooms
-- Payments
-- Employees
+## Database File
+- **database.sql**  
+  Contains all table definitions and relationships required for the system.
 
-## Team Members
-- Salsabil Mostafa — Backend Developer
-- Radwa Magdy — Backend Developer
-- Mohamed Maher — Frontend Developer
-- Mariam Ahmed — Frontend Developer
+---
 
-Special thanks to our instructor: Eng.Sayed Hawas 
+## Main Tables
+- **Guests** – Stores guest personal information  
+- **Rooms** – Manages room details and availability status  
+- **Payments** – Handles billing and payment records  
+- **Employees** – Stores employee information  
+
+---
+
+## How to Use
+1. Open **SQL Server Management Studio (SSMS)**  
+2. Create a new database (e.g., `HotelManagementDB`)  
+3. Open the `database.sql` file  
+4. Execute the script to create tables and relationships  
+
+---
+
+## Notes
+- This database was designed to work with a **.NET Core Web API** backend.  
+- The backend API was hosted **locally** during development.
+
+---
+
+## Project Information
+- **Project Type:** Graduation Project (DEPI)  
+- **System:** Hotel Management System (HMS)
+
+---
+
+## Acknowledgements
+Special thanks to our instructor **Eng.Sayed Hawas** for guidance and support throughout the project.
