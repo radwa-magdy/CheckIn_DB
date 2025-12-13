@@ -1,8 +1,6 @@
 # Hotel Management System – Database
 
-This repository contains the **SQL Server database script** for the **Hotel Management System (HMS)**, developed as part of the **DEPI Graduation Project**.
-
-The database supports core hotel operations such as guest management, room tracking, reservations, and payments.
+This repository contains the **SQL Server database script** for the **Hotel Management System (HMS)**, developed as part of the **DEPI Graduation Project**. The database supports core hotel operations such as guest management, room tracking, reservations, and payments.
 
 ---
 
